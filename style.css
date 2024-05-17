@@ -16,15 +16,28 @@
     flex-grow: 1; /* Allows flex items to grow to fill available space */
   }
   body {
-    background-color: powderblue;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+  }
+  a {
+    color: #428bca;
+    text-decoration: none
   }
   h1 {
-    color: blue;
+    color:#fff; font-size:32px; border:3px solid #fff; padding:6px 5px; text-transform:uppercase; position:relative;
   }
   p {
     color: red;
   }
+  header {position:relative;width:100%;text-align:center;display:block;margin-bottom:90px;padding:8% 0 6% 0;background-size:cover;background-position:center;}
+  header #header-description {color:#999; font-size:16px; font-style:italic; position:relative; top:10px; text-shadow: #000;}
+  footer {margin-top:50px;}
+  
+   
 
-.test{
+  .test{
     color: blue
-}
+  }
